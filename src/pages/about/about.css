@@ -1,0 +1,38 @@
+.social{
+    text-decoration: none;
+}
+
+.about{
+    margin: 0 0 10px 0;
+}
+
+.contacts{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+#centre{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+.dpAbout{
+    width: 20%;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.sAbout{
+    padding: 10px;
+    font-size: 22px;
+    font-family: 'Source Code Pro', monospace;
+}
+.sAbout::first-letter{
+    margin-left: 15px;
+    text-transform: uppercase;
+}

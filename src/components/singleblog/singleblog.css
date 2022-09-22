@@ -1,0 +1,53 @@
+.singleBlog{
+    flex: 9;
+    padding: 5px;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.singletBlog{
+    position: relative;
+}
+
+.bpImage{
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.singlebDate{
+    color: rgb(206, 206, 206);
+    text-align: center;
+}
+.editPostIcons{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+.iconf{
+    padding: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.singlebTitle{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.blogBody{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.blogBody p::first-letter{
+    margin-left:20px;
+}
+
+.blogBody::first-letter{
+    margin-left: 20px;
+}

@@ -1,0 +1,31 @@
+.video-container video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: 0;
+  }
+
+
+  .video-container .caption {
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+    padding-top: 20%;
+  }
+
+  .imglogo{
+    width: 150px;
+    border-radius: 50%;
+}
+
+
+.social{
+    width: 50px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+}

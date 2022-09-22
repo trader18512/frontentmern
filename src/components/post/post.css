@@ -1,0 +1,35 @@
+.post{
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    position: relative;
+}
+.postFpa{
+    margin-right: 10px;
+}
+
+.blogPic{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+.postTitle{
+    margin-left: 5px;
+    font-size: 20px;
+    height: 70px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.postDate{
+    position: absolute;
+    margin-top: 10px;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+    font-style: italic;
+}

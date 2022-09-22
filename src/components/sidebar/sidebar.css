@@ -1,0 +1,46 @@
+.imglogoSide{
+    width: 40%;
+    border-radius: 50%;
+}
+
+.sidebar{
+    flex: 3;
+    z-index: 2;
+}
+
+.sidebarItem{
+    text-align: center;
+    position: sticky;
+    top: 50px;
+    font-size: 20px;
+}
+
+.sideSocial{
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    margin: 5px;
+    text-decoration: none;
+    object-fit: cover;
+}
+
+.sideSocial:hover{
+    color: rgb(3, 74, 156);
+    transition: 1800ms;
+}
+
+.mButton{
+    border: 2px solid rgb(51, 51, 104);
+    border-radius: 10px;
+    background-color: rgb(51, 51, 104);
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    text-decoration: wavy;
+    overflow: hidden;
+}
+.mButton:hover{
+    background-color: black;
+    transition: 1500ms;
+    color: white;
+}

@@ -1,0 +1,9 @@
+.singlepostspace{
+    display: flex;
+}
+
+@media screen and (max-width: 768px){
+    .singlepostspace{
+        display: block;
+    }
+}
