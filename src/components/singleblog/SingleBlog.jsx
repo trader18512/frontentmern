@@ -9,7 +9,7 @@ export default function SingleBlog() {
     const location = useLocation();
     const path = location.pathname.split("/")[2];
     const [post, setPost] = useState({});
-    const IF = "http://localhost:5000/images/";
+    const IF = "https://trial-one-web.onrender.com/images/";
     const { user } = useContext(Context);
     const [title, setTitle] = useState("");
     const [desc, setDesc] = useState("");
