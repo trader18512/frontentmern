@@ -5,7 +5,7 @@ import { useContext, useEffect, useState } from "react";
 import { Context } from "../../context/Context";
 
 export default function Project({projectsi}) {
-  const IF = "http://localhost:5000/images/"
+  const IF = "https://trial-one-web.onrender.com/images/"
   const { user } = useContext(Context);
 
 
