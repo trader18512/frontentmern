@@ -2,7 +2,7 @@ import "./post.css"
 import{Link} from "react-router-dom"
 
 export default function Post({post}) {
-  const IF = "http://localhost:5000/images/";
+  const IF = "https://trial-one-web.onrender.com/images/";
   return (
     <div className="postFpa">
     <div className="post">
