@@ -44,7 +44,15 @@ export default function WriteBlog() {
             type="file"
             id="fileInput"
             style={{ display: "none" }}
-            onChange={(e) => setFile(e.target.files[0])}
+            onChange={(e) => {
+              const selectedFile = e.target.files[0];
+              if (selectedFile && selectedFile.type.startsWith("image/")) {
+                setFile(selectedFile);
+              } else {
+                alert("Please upload a valid image file (e.g., PNG, JPEG).");
+                e.target.value = null; // Reset the file input
+              }
+            }}
           />
           <input
             type="text"
