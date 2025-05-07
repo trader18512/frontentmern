@@ -35,8 +35,8 @@ export default function WriteProject() {
   };
   return (
     <div className="write">
-      {file && (
-        <img className="writeImg" src={URL.createObjectURL(file)} alt="" />
+      {file && file.type.startsWith("image/") && (
+        <img className="writeImg" src={URL.createObjectURL(file)} alt="Uploaded preview" />
       )}
       <form className="writeForm" onSubmit={handleSubmit}>
         <div className="writeFormGroup">
