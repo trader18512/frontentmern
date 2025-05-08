@@ -47,7 +47,14 @@ export default function WriteProject() {
             type="file"
             id="fileInput"
             style={{ display: "none" }}
-            onChange={(e) => setFile(e.target.files[0])}
+            onChange={(e) => {
+              const selectedFile = e.target.files[0];
+              if (selectedFile && ["image/jpeg", "image/png", "image/gif"].includes(selectedFile.type)) {
+                setFile(selectedFile);
+              } else {
+                alert("Please upload a valid image file (JPEG, PNG, or GIF).");
+              }
+            }}
           />
           <input
             type="text"
